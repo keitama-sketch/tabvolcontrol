@@ -1,0 +1,8 @@
+name: tabvolcontrol
+
+install:
+  - apt: build-essential
+  - apt: git
+
+run:
+  - echo "Installed!"
