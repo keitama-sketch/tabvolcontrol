@@ -3,8 +3,8 @@ name: tabvolcontrol
 install:
   - apt: build-essential
   - apt: git
-  - apt: build-essential
   - apt: libsdl2-dev
   - apt: libsdl2-ttf-dev
+  - apt: libsdl2-image-dev  # <--- これを追加
 run:
-  - echo "Installed!"
+  - echo "Dependencies installed. Starting build..."
